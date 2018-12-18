@@ -44,7 +44,7 @@ ReactDOM.render(<App/>, document.getElementById('app'));
 
 // Option 2
 
-var potatoTeam = ['Select Person', 'Dominika', 'Danuta', 'Kamil', 'Bartek', 'Łukasz', 'Tomek', 'Maciek H', 'Maciek Ch', 'Oskar'];
+var potatoTeam = ['Select Person', 'Doinika', 'Danuta', 'Kamil', 'Bartek', 'Łukasz', 'Tomek', 'Maciek H', 'Maciek Ch', 'Oskar'];
 var createSelect = document.createElement('select');
 document.getElementsByTagName('body')[0].appendChild(createSelect);
 
@@ -61,3 +61,6 @@ for (var i = 0; i < potatoTeam.length; ++i) {
 
   document.getElementsByTagName('select')[0].appendChild(createOption);
 }
+
+
+// http://jsfiddle.net/g6jrt8ey/
