@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import 'normalize.css/normalize.css';
-// import './styles/styles.scss';
+import './styles.css';
 
-ReactDOM.render(<p>boiler plate</p>, document.getElementById('app'));
+ReactDOM.render(<div className="font">boiler plate</div>, document.getElementById('app'));

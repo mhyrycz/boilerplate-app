@@ -16,7 +16,6 @@ module.exports = {
       use: [
         'style-loader',
         'css-loader',
-        'sass-loader'
       ]
     }]
   },
@@ -28,5 +27,5 @@ module.exports = {
     host: "0.0.0.0",   
     public: "0.0.0.0:3000",
     disableHostCheck: true,
-  }
+  },
 };
