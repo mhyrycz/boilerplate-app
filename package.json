@@ -18,7 +18,7 @@
     "css-loader": "3.4.2",
     "normalize.css": "7.0.0",
     "react": "16.13.0",
-    "react-dom": "16.13.0",
+    "react-dom": "16.0.1",
     "react-router-dom": "5.1.2",
     "react-router-prop-types": "1.0.4",
     "style-loader": "1.1.3",
