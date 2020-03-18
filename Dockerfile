@@ -19,7 +19,3 @@ RUN yarn install
 
 # start app
 CMD ["yarn", "run", "dev-server"]
-# CMD ["./bin/docker-entrypo"]
-
-# to build image and run container locally
-# docker build -t react-app-image . && docker run -it --name react-app -p 8080:3000 react-app-image
